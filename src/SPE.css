@@ -1,0 +1,31 @@
+.spe {
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    margin-bottom: 70px;
+}
+.subtotal {
+    display: flex;
+    justify-content: space-evenly;
+}
+.subtotal > span {
+    font-weight: 700;
+}
+.pickup__savings {
+    display: flex;
+    justify-content: space-evenly;
+}
+.pickup__savings > p {
+    text-decoration: underline;
+}
+.pickup__savings > span {
+    color: red;
+    font-weight: 700;
+}
+.taxes__fees {
+    display: flex;
+    justify-content: space-evenly;
+}
+.taxes__fees > span {
+    font-weight: 700;
+}
